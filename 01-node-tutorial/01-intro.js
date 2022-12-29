@@ -1,3 +1,5 @@
+// In order to run files in the terminal type node then file name
+
 const amount = 9
 
 if (amount < 10) {

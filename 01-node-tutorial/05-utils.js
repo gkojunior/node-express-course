@@ -1,5 +1,5 @@
 const sayHi = (name) => {
   console.log(`Hello there ${name}`)
 }
-// export default
+// similiar to us using export default
 module.exports = sayHi

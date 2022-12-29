@@ -1,5 +1,7 @@
 const { readFileSync, writeFileSync } = require('fs')
 console.log('start')
+
+// First parameter is the path, second is the encoding
 const first = readFileSync('./content/first.txt', 'utf8')
 const second = readFileSync('./content/second.txt', 'utf8')
 
