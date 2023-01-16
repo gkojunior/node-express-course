@@ -1,9 +1,9 @@
-// local
+// local variable
 const secret = 'SUPER SECRET'
 
 // sharing with rest of application
-const john = 'john'
-const peter = 'peter'
+const kyrie = 'Kyrie'
+const imani = 'Imani'
 
 // In order to share pur info we need to export the varaiables in the module(file).
-module.exports = { john, peter }
+module.exports = { kyrie, imani }

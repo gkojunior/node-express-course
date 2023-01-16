@@ -1,4 +1,5 @@
-const http = require('http')
+// This module allows us to set up a web server
+const http = require('http');
 
 const server = http.createServer((req, res) => {
 	//   if (req.url === '/') {
@@ -32,4 +33,4 @@ const server = http.createServer((req, res) => {
 	}
 });
 
-server.listen(5000);
+server.listen(3000);
