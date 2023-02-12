@@ -1,7 +1,6 @@
 1. In this lesson, you created a middleware function called asyncWrapper. Why?
 
-    A. Cleaner code
-    week
+    A. The middleware function helps with refactoring. The code looks much cleaner because in the code we are repeating ourselves.
     
 2. Suppose that you want to make sure that both a status code and and error message are send back to the user when they request the URL for a task that does not exist. Assume that you’ve created a CustomAPIError class and an error handler that references that class. Complete the code:
 
