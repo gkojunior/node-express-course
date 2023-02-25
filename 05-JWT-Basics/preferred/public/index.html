@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>George's Express Site</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Welcome</h1>
+      <p>Please sign in or create an account!</p>
+      <div class="form-container">
+        <form class="form contact-form">
+        <h2>SIGN UP</h2>
+        <div class="form-row">
+          <label for="username" class="form-label">username:</label>
+          <input type="text" class="form-input username-input" />
+        </div>
+        <div class="form-row">
+          <label for="password" class="form-label">password:</label>
+          <input type="password" class="form-input password-input" />
+        </div>
+        <button type="submit" class="btn btn-block">submit</button>
+      </form>
+      </div>
+      <div class="container">
+        <h4>Dashboard</h4>
+        <p class="token">no token present</p>
+        <div class="result"></div>
+        <button class="btn btn-block" id="data">get data</button>
+      </div>
+    </main>
+    <script>src="./app.js"</script>
+  </body>
+</html>
