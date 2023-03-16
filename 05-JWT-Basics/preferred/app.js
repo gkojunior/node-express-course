@@ -4,6 +4,9 @@ require('express-async-errors')
 const express = require('express')
 const app = express()
 
+// connecteing to database
+const connectDB = require('./db/connect')
+
 const router = require('./routes/main')
 const notFoundMidddleware = require('./middleware/not-found')
 const errorHandlerMiddleware = require('./middleware/error-handler')
